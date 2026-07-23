@@ -1,20 +1,17 @@
-Package: easy_meta
+Package: easyMeta
 Type: Package
 Title: Simple Interfacce for Meta Analysis
 Version: 0.0.1
-Author:
+Authors@R:
 	person(
-		"Bill",
-		"Clinton",
-		"Aglomasa",
+		given = "Bill Clinton",
+		family = "Aglomasa",
 		email = "aglomasa@yahoo.com",
 		role = c("aut", "cre")
 	)
-Maintainer: Bill Clinton Aglomasa aglomasa@yahoo.com
 Description: Simplifies common workflows using the meta package
 License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports:
-	meta,
-	dplyr
+	meta
