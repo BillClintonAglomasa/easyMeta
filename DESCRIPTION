@@ -1,6 +1,6 @@
 Package: easyMeta
 Type: Package
-Title: Simple Interfacce for Meta Analysis
+Title: Simple Interface for Meta Analysis
 Version: 0.0.1
 Authors@R:
 	person(
