@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.git$
+^\.github$
+^\.gitignore$
+^\.\.Rcheck$
+^\.RData$
+^\.Rhistory$
+^easyMeta_.*\.tar\.gz$
+^LICENSE$

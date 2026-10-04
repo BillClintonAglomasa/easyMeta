@@ -1,0 +1,14 @@
+Package: easyMeta
+Type: Package
+Title: Simple Interface for Meta Analysis
+Version: 0.0.1
+Authors@R: person(given = "Bill Clinton", family = "Aglomasa", email = "aglomasa@yahoo.com", role = c("aut", "cre"))
+Author: Bill Clinton Aglomasa
+Maintainer: Bill Clinton Aglomasa <aglomasa@yahoo.com>
+Description: Simplifies common workflows using the meta package.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: meta
+Config/roxygen2/version: 8.1.0
+Built: R 4.6.1; ; 2026-10-04 07:16:35 UTC; unix
