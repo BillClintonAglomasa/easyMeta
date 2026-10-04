@@ -22,7 +22,24 @@
 #' @export
 meta_prevalence <- function(data, event, total){
 
-		meta::metaprop(
+	# Check if the required columns exist in the data
+	if (!event %in% colnames(data)){
+		stop(
+			paste(
+				"Column", event, "does not exist in the data frame."
+			)
+		)
+	}
+
+	if (!total %in% colnames(data)){
+		stop(
+			paste(
+				"Column", total, "does not exist in the data frame."
+			)
+		)
+	}
+
+	meta::metaprop(
 			event = data[[event]],
 			n = data[[total]],
 			data = data,
